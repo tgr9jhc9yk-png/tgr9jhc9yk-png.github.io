@@ -1,0 +1,101 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* Reset and Base Styles */\
+* \{\
+    margin: 0;\
+    padding: 0;\
+    box-sizing: border-box;\
+\}\
+\
+:root \{\
+    --primary-color: #1a237e;\
+    --secondary-color: #c62828;\
+    --accent-color: #ffd700;\
+    --text-dark: #2c3e50;\
+    --text-light: #ecf0f1;\
+    --bg-light: #f8f9fa;\
+    --bg-dark: #1a1a2e;\
+    --gradient: linear-gradient(135deg, #1a237e 0%, #283593 100%);\
+\}\
+\
+body \{\
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\
+    line-height: 1.6;\
+    color: var(--text-dark);\
+    overflow-x: hidden;\
+\}\
+\
+.container \{\
+    max-width: 1200px;\
+    margin: 0 auto;\
+    padding: 0 20px;\
+\}\
+\
+/* Header & Navigation */\
+.header \{\
+    position: fixed;\
+    top: 0;\
+    width: 100%;\
+    background: rgba(255, 255, 255, 0.98);\
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);\
+    z-index: 1000;\
+    transition: all 0.3s ease;\
+\}\
+\
+.navbar \{\
+    padding: 1rem 0;\
+\}\
+\
+.nav-wrapper \{\
+    display: flex;\
+    justify-content: space-between;\
+    align-items: center;\
+\}\
+\
+.logo h1 \{\
+    color: var(--primary-color);\
+    font-size: 1.8rem;\
+    font-weight: 700;\
+\}\
+\
+.logo .tagline \{\
+    font-size: 0.75rem;\
+    color: var(--secondary-color);\
+    font-weight: 600;\
+\}\
+\
+.nav-menu \{\
+    display: flex;\
+    list-style: none;\
+    align-items: center;\
+    gap: 2rem;\
+\}\
+\
+.nav-link \{\
+    color: var(--text-dark);\
+    text-decoration: none;\
+    font-weight: 500;\
+    transition: color 0.3s;\
+\}\
+\
+.nav-link:hover \{\
+    color: var(--primary-color);\
+\}\
+\
+.btn-nav \{\
+    background: var(--primary-color);\
+    color: white;\
+    padding: 0.6rem 1.5rem;\
+    border-radius: 25px;\
+    text-decoration: none;\
+    font-weight: 600;\
+    transition: all 0.3s;\
+\}\
+\
+.btn-nav:hover \{\
+}
